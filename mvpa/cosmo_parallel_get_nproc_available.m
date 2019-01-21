@@ -187,7 +187,7 @@ function [nproc_available,msg]=matlab_get_max_nproc_available_ge2013b()
          return
      end
 
-    nproc_available=pool.NumWorkers();
+    nproc_available=pool.NumWorkers;
 
 
 function msg=check_java_and_funcs(function_names)
